@@ -73,7 +73,8 @@ h1,h2,h3,h4,h5,h6{
 		width:80%;
 	}
 	nav{
-		display:visible;
+		display:inherit;
+			
 	}
 }
 @media (min-width:1024px){
@@ -89,6 +90,9 @@ h1,h2,h3,h4,h5,h6{
 		flex-direction:row-reverse;
 		justify-content:center;
 		align-items:center;
+	}
+	nav{
+		display:inherit;
 	}
 }
 
@@ -786,6 +790,9 @@ h1,h2,h3,h4,h5,h6{
 	margin:4em auto;
 	width:90%;
 	
+}
+.map iframe{
+	width:100%;
 }
 .form-section{
 	width:100%
