@@ -69,32 +69,26 @@ nav {
 }
 @media (min-width:320px){
 	.img-skills{
-		
 		width:100%;
-}
+	}
 	.aboutme{
-		
 		width:90%;
-	
-}
+	}
 	.me-img{
 		width:50%;
 	}
 	.name-profile{
-		width:80%;
+		width:65%;
 	}
 }
 @media (min-width:600px){
-		.img-skills{
-			
-			width:100%;
-}
-		.aboutme{
-			
-			width:90%;
-	
-}
-		.me-img{
+	.img-skills{
+		width:100%;
+	}
+	.aboutme{
+		width:90%;
+	}
+	.me-img{
 		width:30%;
 	}
 	.name-profile{
@@ -102,17 +96,13 @@ nav {
 	}
 }
 @media (min-width:1024px){
-		.img-skills{
-			
-			width:45%;
-}
-		.aboutme{
-			
-	
-			width:45%;
-	
-}
-		.me-img{
+	.img-skills{
+		width:45%;
+	}
+	.aboutme{
+		width:45%;
+	}
+	.me-img{
 		width:30%;
 	}
 	.name-profile{
@@ -120,11 +110,9 @@ nav {
 	}
 }
 .img-skills{
-	margin:3em 0;
-	
+	margin:2em 0;
 }
 .img-skill{
-	
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
@@ -140,7 +128,6 @@ nav {
 
 .img-skill .name-profile ul li{
 	color:black;
-	
 	list-style:none;
 	justify-content:left;
 	line-height:2.5em;
@@ -157,7 +144,6 @@ nav {
 	width:90%;
 	display:flex;
 	flex-direction:column;
-
 	margin:auto
 }
 .skill-pro h1{
@@ -169,29 +155,25 @@ nav {
 .skill progress{
 	width:100%;
 	padding:0.5em 0;
-	
 }
 .skill label{
 	width:100%;
 	padding:1em;
 }
 .aboutme{
-	margin: 3em 0 ;
-	
-	
+	margin: 2em 0 ;
 }
-.aboutus article p{
-		
-		font-size:1.1em;
-		line-height:1.8em;
-		
-		text-align:justify;
+.aboutus 
+	article p{
+	font-size:1.1em;
+	line-height:1.8em;
+	text-align:justify;
 }
 .aboutus article div h1{
-		font-size:1.3em;
-		padding:0.5em 0;
-		text-align:justify;
-		position:relative;`
+	font-size:1.3em;
+	padding:0.5em 0;
+	text-align:justify;
+	position:relative;`
 }
 .aboutus article div h1::before{
 	border-bottom:0.2em solid #0078ff;
@@ -201,9 +183,6 @@ nav {
 	left:1%;
 	width:11%;
 }
-
-
-
 .service{
 	width:100%;
 }
@@ -213,12 +192,12 @@ nav {
 	}
 }
 @media (min-width:600px){
-		.service-content{
+	.service-content{
 		width:80%
 	}
 }
 @media (min-width:1024px){
-		.service-content{
+	.service-content{
 		width:30%
 	}
 }
@@ -233,7 +212,7 @@ nav {
 .service-content{
 
 	background-color:#fff;
-	margin:2em 0;
+	margin:3em 0;
 	line-height:2em;
 	border-radius:0.5em
 	
@@ -256,15 +235,15 @@ nav {
 	padding:0em 1em 2em ;
 }
 .service-content .content-icon{
-		border:0.3em solid #0078ff;
-		border-radius:50%;
-		font-size:2em;
-		width:3em;
-		height:3em;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		margin:1em auto;
+	border:0.3em solid #0078ff;
+	border-radius:50%;
+	font-size:2em;
+	width:3em;
+	height:3em;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:1em auto;
 }
 .service-content:hover .content-icon{
 	background-color:#0078ff;
@@ -279,10 +258,7 @@ nav {
 	bottom:0%;
 	left:48%;
 	width:4%;
-	
 }
-
-
 
 .achivment{
 	background:linear-gradient(#0078ffc2,#0078ffc2),url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg);
@@ -299,37 +275,34 @@ nav {
 		height:fit-content;
 	}
 	.achivment-icons{
-			height:fit-content;
+		height:fit-content;
 	}
 
 }
 @media (min-width:600px){
-		.head-icon{
+	.head-icon{
 		width:50%
 	}
 	.achivment{
-		height:90vh;
+		height:60vh;
 	}
 	.achivment-icons{
-			height:90vh;
+		height:60vh;
 	}
-
-
 }
 @media (min-width:1024px){
-		.head-icon{
+	.head-icon{
 		width:25%
 	}
 	.achivment{
-		height:70vh;
+		height:80vh;
 	}
 	.achivment-icons{
-			height:70vh;
+		height:80vh;
 	}
 
 }
 .achivment-icons{
-	
 	width:100%;	
 	display:flex;
 	flex-wrap:wrap;
@@ -338,7 +311,6 @@ nav {
 	align-items:center;
 }
 .head-icon{
-	
 	text-align:center;
 }
 .achivment-icons .icon{
