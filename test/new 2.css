@@ -1,0 +1,39 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+.row{
+	width:90%;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.col-1{
+	width:45%;
+	box-shadow:0 0 10px gray;
+	border-radius:.5em;
+}
+.col-1 .row-1{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.content-1{
+	position:relative;
+	width:50%;
+}
+img{
+	width:100%;
+}
+.date{
+	position:absolute;
+	top:5%;
+	left:5%;
+}	
+.col-1 .row-1 .content-2{
+	padding:1em;
+}
